@@ -26,7 +26,7 @@ A Python automation tool for cleaning, validating, and organizing messy CSV file
 
 The program scans a folder for CSV files and processes each file through a series of cleaning and validation steps.
 
-Original files are never overwritten.
+**Original files are never overwritten.**
 
 The program creates:
 
@@ -60,17 +60,34 @@ The program cleans what can safely be cleaned and reports issues that require hu
 
 ## Results
 
-The program successfully processes the test CSV and produces:
+The program was tested on a messy CSV file and successfully processed the data without overwriting the original file.
 
-* A cleaned CSV file
-* A backup of the original data
-* A review file for questionable records
-* Detailed processing and data-quality reports
-* Verification results confirming the cleaned output
+The test run demonstrated:
 
-### Example Execution
+* Duplicate removal
+* Whitespace cleanup
+* Name formatting
+* Category standardization
+* Phone number standardization
+* Numeric value standardization
+* Date formatting
+* Possible duplicate detection
+* Backup creation
+* Review file creation
+* Report generation
+* Output verification
 
-![CSV Data Cleaner execution](screenshot.png.png)
+### Data Cleaning
+
+![CSV data cleaning and standardization](Screenshot%202026-08-30%20213509.png)
+
+### Final Result
+
+![CSV cleaning final result](Screenshot%202026-08-30%20213725.png)
+
+**Test result:** 1 file successfully processed, 0 failures, and verification passed with 16 rows remaining.
+
+The original CSV file was not overwritten.
 
 ## Running the Program
 
@@ -99,6 +116,8 @@ messy_csv/
 |-- review/
 |-- backups/
 |-- reports/
-|-- screenshot.png.png
+|-- Screenshot 2026-08-30 213509.png
+|-- Screenshot 2026-08-30 213603.png
+|-- Screenshot 2026-08-30 213725.png
 `-- README.md
 ```
