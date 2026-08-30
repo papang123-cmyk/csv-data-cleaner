@@ -1,0 +1,18 @@
+Name,Age,City,Date,Price,Category,Phone,Email
+ John Smith ,18,Delhi,01/02/2026,"₹1,500",Electronics,9876543210,john@example.com
+JOHN SMITH,18,delhi,2026-02-01,1500,electronics,9876543210,john@example.com
+Sarah Jones,,Mumbai,"Feb 1, 2026",Rs. 900,Clothing,98765-43210,sarah@example.com
+Mike,170,Manipur,,1200,clothing,+91 98765 12345,mike@example.com
+Alex,-5,Imphal,2026/03/12,"1,500", CLOTHING ,9876512345,alex@example.com
+Maria Chen,22,Delhi ,12-03-2026,"₹2,000",ELECTRONICS,9876500000,
+maria chen,22,delhi,2026-03-12,2000,electronics,9876500000,
+David,twenty,Imphal,March 15 2026,900,Food,12345,david@example
+Priya,19,Mumbai,15/03/2026,N/A,food,,priya@example.com
+John Doe,35,Kolkata,2026-04-01,-500,Electronics,9876540000,john.doe@example.com
+John Doe,35,Kolkata,2026-04-01,-500,Electronics,9876540000,john.doe@example.com
+  Anita Rao,28,  Delhi,04/05/26,"3,500",Clothing,9876541111,anita@example.com
+Anita Rao,28,Delhi,2026-05-04,3500,clothing,9876541111,anita@example.com
+Rohan,24,Manipr,2026-06-10,₹750,Food,98765 55555,rohan@example.com
+Emma,31,Imphal,10/06/2026,800.50,Food,9876555555,emma@example.com
+,27,Mumbai,2026-07-01,1250,Electronics,9876566666,missingname@example.com
+Noah,20,,2026-07-02,650,Clothing,9876577777,noah@example.com

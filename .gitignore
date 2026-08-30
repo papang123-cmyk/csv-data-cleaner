@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+
+backups/
+review/
+cleaned_csv/
+reports/
